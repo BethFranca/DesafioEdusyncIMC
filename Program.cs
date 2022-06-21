@@ -9,7 +9,7 @@ namespace desafioBrq
             //Declarações de variáveis
             string nome = "";
             string sexo = ""; // variavel string
-            int idade = 0;
+            int idade = 0; // variavel int
             double altura = 0;
             double peso = 0;
             string confirmarDado = "";
