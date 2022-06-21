@@ -8,7 +8,7 @@ namespace desafioBrq
         {
             //Declarações de variáveis
             string nome = "";
-            string sexo = "";
+            string sexo = ""; // variavel string
             int idade = 0;
             double altura = 0;
             double peso = 0;
@@ -80,7 +80,7 @@ namespace desafioBrq
 
 
 
-            double imc = peso / (altura * altura); // Calculo IMC baseado no peso e na altura
+            double imc = peso / (altura * altura); // Calculo IMC baseado no peso e na altura  do paciente.      
 
             string categoria = "";// Identifica a categoria do paciente de acordo com sua idade
             if (idade < 12)
